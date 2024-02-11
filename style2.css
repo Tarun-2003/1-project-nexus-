@@ -1,0 +1,90 @@
+html,body{
+    height: 100vh;
+    margin: 0;
+   
+}
+
+.bg{
+    background-image: url("bg_img.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+
+
+
+.container{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    text-align: center;
+    
+
+}
+.login{
+    background-color:#9FCCA4;
+    flex: 1;
+    border-radius: 3.5%;
+
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    
+
+}
+
+.container_content{
+    padding: 130px 90px 130px 90px;
+ }
+ button{
+    padding:10px 50px;
+    border-radius: 25px;
+    background-color:black;
+    color: white;
+    margin-top: 2%;
+    transition:400ms all ease;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7) ;
+  }
+ input{
+ 
+    padding: 0.4rem 1.5rem;
+    margin-bottom: 3.5%;
+    color:dimgrey;
+    border-radius: 0.5rem;
+    outline:none ;
+    border:1px solid black;
+    resize: none;
+    
+   
+  }
+  button:hover{
+    background-color:white;
+    color: black;
+ }
+ h1{
+    font-family: 'Protest Strike', sans-serif;
+}
+p{
+    font-family: 'PT Sans', sans-serif;
+    
+}
+@media(max-width:600px){
+    .container{
+        width: 93%;
+    }
+    input {
+        width: 70%;
+    }
+  
+   
+}
+@media(max-width:1200px){
+    .container{
+        width: 93%;
+    }
+}
